@@ -89,7 +89,7 @@ echo "Download and install Nextcloud container Logo"
 if [ ! -d ${LXC_PATH}/custom-icons ]; then
   mkdir -p ${LXC_PATH}/custom-icons
 fi
-wget -q -O ${LXC_PATH}/custom-icons/${LXC_CONTAINER_NAME}.png https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/nextcloud.png
+wget -q -O ${LXC_PATH}/custom-icons/${LXC_CONTAINER_NAME}.png https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/nextcloudpi.png
 
 echo "All Done!"
 echo "Please refresh your LXC page, the container is now ready to start."
