@@ -40,7 +40,7 @@ error_check "${DL_URL}" "Download URL"
 
 
 # Check if LXC container already exists
-if lxc-ls --line | grep -x "${LXC_CONTAINER_NAME}" ; then
+if lxc-ls --line | grep -q -x "${LXC_CONTAINER_NAME}" ; then
   echo "ERROR: Container ${LXC_CONTAINER_NAME} already exists!"
   exit 1
 fi
