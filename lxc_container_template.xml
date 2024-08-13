@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LXC version="0.1">
+  <Name>NextcloudPi</Name>
+  <Distribution>debian</Distribution>
+  <Release>bookworm</Release>
+  <Architecture>amd64</Architecture>
+  <Repository>https://github.com/ich777/unraid_lxc_nextcloudpi</Repository>
+  <Description/>
+  <Privileged>true</Privileged>
+  <Autostart>true</Autostart>
+  <Beta>True</Beta>
+  <Support>https://support.me.pls</Support>
+  <Source>https://nextcloudpi.com/</Source>
+  <Project>https://github.com/nextcloud/nextcloudpi</Project>
+  <Overview>This LXC container contains NextcloudPi</Overview>
+  <Category>Tools:</Category>
+  <WebUI>https://[IP]:443</WebUI>
+  <Icon>https://raw.githubusercontent.com/ich777/docker-templates/master/ich777/images/nextcloudpi.png</Icon>
+  <DonateText>If you like my work (or not) please </DonateText>
+  <DonateLink>https://payme.now/pls</DonateLink>
+  <Requires>unRAID server</Requires>
+</LXC>
